@@ -567,6 +567,9 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
                                     <color key="baseBackgroundColor" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="vSi-xH-sBE" kind="show" id="JHQ-DB-KaB"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pepe Table:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VLQ-TU-EYA">
                                 <rect key="frame" x="48" y="208" width="136" height="40"/>
@@ -733,6 +736,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="wgE-X4-6uj"/>
         <segue reference="6cT-cv-UsX"/>
+        <segue reference="JHQ-DB-KaB"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="pepeclown" width="500" height="500"/>
