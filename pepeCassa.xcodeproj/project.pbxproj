@@ -1,0 +1,659 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC4281DF28CDA5F40039D96C /* PepeCashier.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4281DE28CDA5F40039D96C /* PepeCashier.swift */; };
+		EC4281E128CDA7FD0039D96C /* PepeTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4281E028CDA7FD0039D96C /* PepeTable.swift */; };
+		EC4281E328CDC0290039D96C /* PepeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4281E228CDC0290039D96C /* PepeMenu.swift */; };
+		ECDDFD6328CCCEB2007E8DD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD6228CCCEB2007E8DD1 /* AppDelegate.swift */; };
+		ECDDFD6528CCCEB2007E8DD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD6428CCCEB2007E8DD1 /* SceneDelegate.swift */; };
+		ECDDFD6728CCCEB2007E8DD1 /* PepeKassa.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD6628CCCEB2007E8DD1 /* PepeKassa.swift */; };
+		ECDDFD6A28CCCEB2007E8DD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDFD6828CCCEB2007E8DD1 /* Main.storyboard */; };
+		ECDDFD6C28CCCEB2007E8DD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECDDFD6B28CCCEB2007E8DD1 /* Assets.xcassets */; };
+		ECDDFD6F28CCCEB2007E8DD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECDDFD6D28CCCEB2007E8DD1 /* LaunchScreen.storyboard */; };
+		ECDDFD7A28CCCEB3007E8DD1 /* pepeCassaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD7928CCCEB3007E8DD1 /* pepeCassaTests.swift */; };
+		ECDDFD8428CCCEB3007E8DD1 /* pepeCassaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD8328CCCEB3007E8DD1 /* pepeCassaUITests.swift */; };
+		ECDDFD8628CCCEB3007E8DD1 /* pepeCassaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECDDFD8528CCCEB3007E8DD1 /* pepeCassaUITestsLaunchTests.swift */; };
+		ECE64DD428CF46B1006C41C4 /* PepeContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64DD328CF46B1006C41C4 /* PepeContact.swift */; };
+		ECE64DD628CF46C8006C41C4 /* PepeOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64DD528CF46C8006C41C4 /* PepeOrder.swift */; };
+		ECE64DD828CF4734006C41C4 /* PepeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE64DD728CF4734006C41C4 /* PepeInfo.swift */; };
+		ECE9132328CF8B69003F5248 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9132228CF8B69003F5248 /* Order.swift */; };
+		ECE9132528CF8E21003F5248 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE9132428CF8E21003F5248 /* Menu.swift */; };
+		ECFB84D528D395D200B1DFA8 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFB84D428D395D200B1DFA8 /* Contact.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECDDFD7628CCCEB3007E8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDFD5728CCCEB2007E8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDFD5E28CCCEB2007E8DD1;
+			remoteInfo = pepeCassa;
+		};
+		ECDDFD8028CCCEB3007E8DD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECDDFD5728CCCEB2007E8DD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECDDFD5E28CCCEB2007E8DD1;
+			remoteInfo = pepeCassa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4281DE28CDA5F40039D96C /* PepeCashier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeCashier.swift; sourceTree = "<group>"; };
+		EC4281E028CDA7FD0039D96C /* PepeTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeTable.swift; sourceTree = "<group>"; };
+		EC4281E228CDC0290039D96C /* PepeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeMenu.swift; sourceTree = "<group>"; };
+		ECDDFD5F28CCCEB2007E8DD1 /* pepeCassa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pepeCassa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDFD6228CCCEB2007E8DD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECDDFD6428CCCEB2007E8DD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECDDFD6628CCCEB2007E8DD1 /* PepeKassa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeKassa.swift; sourceTree = "<group>"; };
+		ECDDFD6928CCCEB2007E8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECDDFD6B28CCCEB2007E8DD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECDDFD6E28CCCEB2007E8DD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECDDFD7028CCCEB2007E8DD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECDDFD7528CCCEB3007E8DD1 /* pepeCassaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pepeCassaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDFD7928CCCEB3007E8DD1 /* pepeCassaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pepeCassaTests.swift; sourceTree = "<group>"; };
+		ECDDFD7F28CCCEB3007E8DD1 /* pepeCassaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pepeCassaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECDDFD8328CCCEB3007E8DD1 /* pepeCassaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pepeCassaUITests.swift; sourceTree = "<group>"; };
+		ECDDFD8528CCCEB3007E8DD1 /* pepeCassaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pepeCassaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECE64DD328CF46B1006C41C4 /* PepeContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeContact.swift; sourceTree = "<group>"; };
+		ECE64DD528CF46C8006C41C4 /* PepeOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeOrder.swift; sourceTree = "<group>"; };
+		ECE64DD728CF4734006C41C4 /* PepeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PepeInfo.swift; sourceTree = "<group>"; };
+		ECE9132228CF8B69003F5248 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		ECE9132428CF8E21003F5248 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		ECFB84D428D395D200B1DFA8 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECDDFD5C28CCCEB2007E8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7228CCCEB3007E8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7C28CCCEB3007E8DD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECDDFD5628CCCEB2007E8DD1 = {
+			isa = PBXGroup;
+			children = (
+				ECDDFD6128CCCEB2007E8DD1 /* pepeCassa */,
+				ECDDFD7828CCCEB3007E8DD1 /* pepeCassaTests */,
+				ECDDFD8228CCCEB3007E8DD1 /* pepeCassaUITests */,
+				ECDDFD6028CCCEB2007E8DD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECDDFD6028CCCEB2007E8DD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDFD5F28CCCEB2007E8DD1 /* pepeCassa.app */,
+				ECDDFD7528CCCEB3007E8DD1 /* pepeCassaTests.xctest */,
+				ECDDFD7F28CCCEB3007E8DD1 /* pepeCassaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECDDFD6128CCCEB2007E8DD1 /* pepeCassa */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9132128CF8B21003F5248 /* modelControllers */,
+				ECE9132028CF8AE4003F5248 /* viewControllers */,
+				ECDDFD6228CCCEB2007E8DD1 /* AppDelegate.swift */,
+				ECDDFD6428CCCEB2007E8DD1 /* SceneDelegate.swift */,
+				ECDDFD6828CCCEB2007E8DD1 /* Main.storyboard */,
+				ECDDFD6B28CCCEB2007E8DD1 /* Assets.xcassets */,
+				ECDDFD6D28CCCEB2007E8DD1 /* LaunchScreen.storyboard */,
+				ECDDFD7028CCCEB2007E8DD1 /* Info.plist */,
+			);
+			path = pepeCassa;
+			sourceTree = "<group>";
+		};
+		ECDDFD7828CCCEB3007E8DD1 /* pepeCassaTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDFD7928CCCEB3007E8DD1 /* pepeCassaTests.swift */,
+			);
+			path = pepeCassaTests;
+			sourceTree = "<group>";
+		};
+		ECDDFD8228CCCEB3007E8DD1 /* pepeCassaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECDDFD8328CCCEB3007E8DD1 /* pepeCassaUITests.swift */,
+				ECDDFD8528CCCEB3007E8DD1 /* pepeCassaUITestsLaunchTests.swift */,
+			);
+			path = pepeCassaUITests;
+			sourceTree = "<group>";
+		};
+		ECE9132028CF8AE4003F5248 /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EC4281E228CDC0290039D96C /* PepeMenu.swift */,
+				ECDDFD6628CCCEB2007E8DD1 /* PepeKassa.swift */,
+				ECE64DD728CF4734006C41C4 /* PepeInfo.swift */,
+				ECE64DD528CF46C8006C41C4 /* PepeOrder.swift */,
+				ECE64DD328CF46B1006C41C4 /* PepeContact.swift */,
+				EC4281E028CDA7FD0039D96C /* PepeTable.swift */,
+				EC4281DE28CDA5F40039D96C /* PepeCashier.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		ECE9132128CF8B21003F5248 /* modelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECE9132228CF8B69003F5248 /* Order.swift */,
+				ECFB84D428D395D200B1DFA8 /* Contact.swift */,
+				ECE9132428CF8E21003F5248 /* Menu.swift */,
+			);
+			path = modelControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECDDFD5E28CCCEB2007E8DD1 /* pepeCassa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDFD8928CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassa" */;
+			buildPhases = (
+				ECDDFD5B28CCCEB2007E8DD1 /* Sources */,
+				ECDDFD5C28CCCEB2007E8DD1 /* Frameworks */,
+				ECDDFD5D28CCCEB2007E8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pepeCassa;
+			productName = pepeCassa;
+			productReference = ECDDFD5F28CCCEB2007E8DD1 /* pepeCassa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECDDFD7428CCCEB3007E8DD1 /* pepeCassaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDFD8C28CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassaTests" */;
+			buildPhases = (
+				ECDDFD7128CCCEB3007E8DD1 /* Sources */,
+				ECDDFD7228CCCEB3007E8DD1 /* Frameworks */,
+				ECDDFD7328CCCEB3007E8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDFD7728CCCEB3007E8DD1 /* PBXTargetDependency */,
+			);
+			name = pepeCassaTests;
+			productName = pepeCassaTests;
+			productReference = ECDDFD7528CCCEB3007E8DD1 /* pepeCassaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECDDFD7E28CCCEB3007E8DD1 /* pepeCassaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDDFD8F28CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassaUITests" */;
+			buildPhases = (
+				ECDDFD7B28CCCEB3007E8DD1 /* Sources */,
+				ECDDFD7C28CCCEB3007E8DD1 /* Frameworks */,
+				ECDDFD7D28CCCEB3007E8DD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECDDFD8128CCCEB3007E8DD1 /* PBXTargetDependency */,
+			);
+			name = pepeCassaUITests;
+			productName = pepeCassaUITests;
+			productReference = ECDDFD7F28CCCEB3007E8DD1 /* pepeCassaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECDDFD5728CCCEB2007E8DD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					ECDDFD5E28CCCEB2007E8DD1 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					ECDDFD7428CCCEB3007E8DD1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECDDFD5E28CCCEB2007E8DD1;
+					};
+					ECDDFD7E28CCCEB3007E8DD1 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = ECDDFD5E28CCCEB2007E8DD1;
+					};
+				};
+			};
+			buildConfigurationList = ECDDFD5A28CCCEB2007E8DD1 /* Build configuration list for PBXProject "pepeCassa" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECDDFD5628CCCEB2007E8DD1;
+			productRefGroup = ECDDFD6028CCCEB2007E8DD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECDDFD5E28CCCEB2007E8DD1 /* pepeCassa */,
+				ECDDFD7428CCCEB3007E8DD1 /* pepeCassaTests */,
+				ECDDFD7E28CCCEB3007E8DD1 /* pepeCassaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECDDFD5D28CCCEB2007E8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDFD6F28CCCEB2007E8DD1 /* LaunchScreen.storyboard in Resources */,
+				ECDDFD6C28CCCEB2007E8DD1 /* Assets.xcassets in Resources */,
+				ECDDFD6A28CCCEB2007E8DD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7328CCCEB3007E8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7D28CCCEB3007E8DD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECDDFD5B28CCCEB2007E8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECFB84D528D395D200B1DFA8 /* Contact.swift in Sources */,
+				ECE64DD828CF4734006C41C4 /* PepeInfo.swift in Sources */,
+				ECDDFD6728CCCEB2007E8DD1 /* PepeKassa.swift in Sources */,
+				ECE9132328CF8B69003F5248 /* Order.swift in Sources */,
+				ECE64DD628CF46C8006C41C4 /* PepeOrder.swift in Sources */,
+				ECDDFD6328CCCEB2007E8DD1 /* AppDelegate.swift in Sources */,
+				ECE9132528CF8E21003F5248 /* Menu.swift in Sources */,
+				EC4281E328CDC0290039D96C /* PepeMenu.swift in Sources */,
+				ECDDFD6528CCCEB2007E8DD1 /* SceneDelegate.swift in Sources */,
+				ECE64DD428CF46B1006C41C4 /* PepeContact.swift in Sources */,
+				EC4281E128CDA7FD0039D96C /* PepeTable.swift in Sources */,
+				EC4281DF28CDA5F40039D96C /* PepeCashier.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7128CCCEB3007E8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDFD7A28CCCEB3007E8DD1 /* pepeCassaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECDDFD7B28CCCEB3007E8DD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECDDFD8628CCCEB3007E8DD1 /* pepeCassaUITestsLaunchTests.swift in Sources */,
+				ECDDFD8428CCCEB3007E8DD1 /* pepeCassaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECDDFD7728CCCEB3007E8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDFD5E28CCCEB2007E8DD1 /* pepeCassa */;
+			targetProxy = ECDDFD7628CCCEB3007E8DD1 /* PBXContainerItemProxy */;
+		};
+		ECDDFD8128CCCEB3007E8DD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECDDFD5E28CCCEB2007E8DD1 /* pepeCassa */;
+			targetProxy = ECDDFD8028CCCEB3007E8DD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECDDFD6828CCCEB2007E8DD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDFD6928CCCEB2007E8DD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECDDFD6D28CCCEB2007E8DD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECDDFD6E28CCCEB2007E8DD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECDDFD8728CCCEB3007E8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECDDFD8828CCCEB3007E8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECDDFD8A28CCCEB3007E8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWVUG675TK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pepeCassa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECDDFD8B28CCCEB3007E8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YWVUG675TK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = pepeCassa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECDDFD8D28CCCEB3007E8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pepeCassa.app/pepeCassa";
+			};
+			name = Debug;
+		};
+		ECDDFD8E28CCCEB3007E8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pepeCassa.app/pepeCassa";
+			};
+			name = Release;
+		};
+		ECDDFD9028CCCEB3007E8DD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pepeCassa;
+			};
+			name = Debug;
+		};
+		ECDDFD9128CCCEB3007E8DD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = none.pepeCassaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pepeCassa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECDDFD5A28CCCEB2007E8DD1 /* Build configuration list for PBXProject "pepeCassa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDFD8728CCCEB3007E8DD1 /* Debug */,
+				ECDDFD8828CCCEB3007E8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDFD8928CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDFD8A28CCCEB3007E8DD1 /* Debug */,
+				ECDDFD8B28CCCEB3007E8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDFD8C28CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDFD8D28CCCEB3007E8DD1 /* Debug */,
+				ECDDFD8E28CCCEB3007E8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDDFD8F28CCCEB3007E8DD1 /* Build configuration list for PBXNativeTarget "pepeCassaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECDDFD9028CCCEB3007E8DD1 /* Debug */,
+				ECDDFD9128CCCEB3007E8DD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECDDFD5728CCCEB2007E8DD1 /* Project object */;
+}
